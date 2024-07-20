@@ -1,0 +1,250 @@
+Payment:
+
+    UI -> DEV Interface
+
+      Order Success Page
+
+      Payment Integration:
+
+        1. Handling Payments with a custom UI
+
+        2. Using the Popular Third Party Gateway like below,
+            1. Stripe
+            2. Razor Pay
+            3. JustPay
+
+          Integrate these payment system referring to their Documentation, Plus sample codes online
+
+      Stripe:
+        1. Signing Up
+        2. 
+
+        Using APIs from Stripe
+
+
+Mock Interviews:
+  General Instructions:
+    0. Good Communication 
+    1. Appearance & Posture
+    2. Intreact with the Interviewer,
+        Greeting
+        Asking Clarification on a particular Questions
+    3. Get some information about the company
+    4. Hand Gesture & Movements
+    5. Feedback & Questions from Yourside
+        Give Your feedback
+        Also please try ask some questions to them,
+          Ask the domain, tech-stack in which You will work
+          ask some info about the company what they do in general
+    6. Do not elaborate the answer more than 30-40secs
+
+  1. HTML CSS:
+
+    Basic Browser Level:
+      DOM, CSSOM
+      Browser( internals ) Internet
+      HTTP vs HTTPS
+      IP, MAC
+      part of URL
+      window & document
+      JSON
+
+    HTML:
+      meta tags: extra info about our site/app other the inside contents
+        get familiar with the common meta tags
+          keywords
+          description
+          view-port
+            responsive web design
+              device-width: responsive based on the device or screen size
+            adaptive web design:
+              width is fixed irrespective of the screen/device size
+      
+      link:
+        rel=stylesheet
+        rel=icon
+      
+      title
+      common tags:
+        inline & block level tags
+
+        know the display types for each tags,
+          div - block
+          headings(h1, h2, h3, h4, h5, h6) - block
+          span, b, strong - inline
+
+        semantic tags - special meaning but behaves like a block
+
+        anchor tag <a> and corresponding attribute like href, target( read about the values )
+
+        img tag & alt attributes
+
+        input tag - types & attributes of input tag
+
+        select tag for drop down
+
+        HTML Form & Form Submit
+
+        ul & ol
+
+        table & related tags/attributes
+
+    CSS:
+
+      priority involed in various CSS styling & important
+
+      box-model
+
+      positions ( positions related attributes )
+
+      display: inline, inline-block, flex( flex related attributes )
+
+        look at: display: grid( properties ), table
+
+      measurement units: absolute & relative units
+
+      basic selector with tag, id, class
+
+      inner-child, last-child, nth-child selector
+
+      pseudo-class
+        :hover, active, checked & few others
+
+      transform
+
+      transition
+
+      media queries
+
+      @key-frames for animation
+
+      parent inherit, initial( reset the value to initial value )
+
+      overflow & text-overflow(ellipsis) with whitespace property
+
+    JavaScript:
+
+      copy by value & copy by reference
+
+      basics:
+
+        scoping
+
+          closures: usage variables declared in the outer scope 
+        
+        hoisting
+
+        tuthy, falsy --> Boolean()
+
+        var, let, const
+
+        spread, rest
+
+        destructuring
+      
+      classes & object in JS
+        new keyword usage
+      
+      Array methods: Map Reduce Filter
+
+      RWD & Adaptive Web Design( Fix the width of the screen irrespective of the device/screen size)
+
+      DOM:
+        createElement, 
+        setAttribute
+        classList, classList.toggle
+        getElementById, 
+        querySelector vs querySelectorAll
+        innerHTML vs innerText
+        appendChild vs append
+      
+        Window - Common Util functions
+        prompt, Alert, confirm
+        working with events
+          add event listener, remove event listener, remove event listener
+          Propagation:
+            bubbling & capturing events
+
+      Async Programming:
+        setTimeout vs setInterval
+        event loop
+
+        fetch/xhr
+
+        Callback
+          What's the callback?
+          Use & its purpose of the callback
+          Pain of callback
+
+        Promise:
+          states & chaining, all
+          then catch
+
+        Error Handling:
+          try/catch
+          throw Error
+        
+        async/await with API requests
+
+        https://www.codeguage.com/glossary/
+
+  2. React:
+      components & JSX
+      states & props
+          child components
+          jsx as prop
+
+      hooks:
+
+        basics hooks - state hooks
+        rendering of the DOM
+
+        lifecycle - useEffect
+
+        useReducer
+
+        useRef
+
+        useContext
+
+        optimization:
+          React.memo
+          useCallback
+          useMemo( calculation memozisation )
+          lazy & suspense
+
+    React-Router-DOM
+      basic components like browserouter, routes, route, inner-child with layout as element
+
+      Navigate
+      default route when the url is wrong
+
+      useParams, useSearchParams, useNavigate
+    
+    Redux/reduxjs/toolkit:
+
+      redux architecture
+        action
+        reducer
+        store modification
+        store change reflecting back in the UI/view
+      
+      middlewares in redux
+
+    Note: We have not discussed class components,
+     but read online about class components vs functional components
+
+  3. MongoDB & SQL ( what ever we learnt is enough )
+  4. NodeJS ( investigate more on inbuilt packages & event emitters )
+    express, mongoose, mongo
+  5. Coding ( approach the problem in granular way )
+      try to check values in below scenarios,
+        best case
+        medium
+        worst case
+    Once done, if the time is still there try to comment try to decorate/comment Your codes
+  
+
+          
+
+
